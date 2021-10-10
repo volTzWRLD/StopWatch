@@ -23,6 +23,7 @@ function begginWatch(){
         seconds_Watch = 0;
         minutes_Watch++;
         stop_Watch.innerHTML = '<p>' + "0" + hours_Watch + ':' + "0" + minutes_Watch + ":" + "0" + seconds_Watch + '</p>';
+
     }
 
 
@@ -31,6 +32,7 @@ function begginWatch(){
         seconds_Watch--;
         stop_Watch.innerHTML = '<p>' + "0" + hours_Watch + ':' + "0" + minutes_Watch + ":" + seconds_Watch + '</p>';
         seconds_Watch++;
+
     }
 
     if (minutes_Watch > 59){
@@ -39,6 +41,7 @@ function begginWatch(){
         minutes_Watch = 0;
         hours_Watch++;
         stop_Watch.innerHTML = '<p>' + "0" + hours_Watch + ":" + minutes_Watch + ":" + "0" + seconds_Watch + '</p>';
+
     }
 
     if (minutes_Watch > 9){
