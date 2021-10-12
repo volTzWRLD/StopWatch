@@ -26,6 +26,6 @@
   </ul><br>
 
   <ul><li><h2>Page</h2></li>
-  <li><a href="https://voltzwrld.github.io/calculator-of-BBQ/">Calculator of BBQ PAGE</a>
+  <li><a href="https://voltzwrld.github.io/StopWatch/">Calculator of BBQ PAGE</a>
 
 </div>
