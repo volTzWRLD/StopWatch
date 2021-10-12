@@ -13,6 +13,12 @@
 
 }
 
+.stopwatch{
+
+    color: white;
+    font-family: 50px;
+}
+
 .design-class{
 
     position: absolute;
@@ -26,7 +32,8 @@
 }  
 
 button{
- 
+    
+    text-align: center;
     padding: 10px;
     border: none;
     outline: none;
@@ -35,7 +42,7 @@ button{
 
 button:hover{
 
-    background-color: black;
+    background-color: rgb(73, 71, 71);
     transition: all .4s ease-in-out;    
     cursor: pointer;
 
@@ -59,31 +66,57 @@ button:hover{
 
 }
 
+@media screen and (max-width: 775px){
+
+    p.stopwatch{
+
+        color: white;
+        font-size: 60px !important;
+
+    }
+
+
+    
+}
+
+
 @media screen and (max-width: 414px){
+
     .design-class{
        
         padding: 50px;
     
     }  
+
 }
 
-@media screen and (max-width: 314px){
+@media screen and (max-width: 317px){
+
+    p.stopwatch{
+
+        color: white;
+        font-size: 40px !important;
+
+    }
+    
     .design-class{
        
-        font-size: 30px;;
+        font-size: 0px;
     
     }  
 
-    button{
- 
-        padding: 1px;
-        border: none;
-        outline: none;
+    
+    .button_beggin, .button_stop{
+
+        margin-top: 10px;
     
     }
+
+    .button_stop_2{
+
+        margin-left: 30px
+
+    }
+
+
 }
-
-
-
-
-
